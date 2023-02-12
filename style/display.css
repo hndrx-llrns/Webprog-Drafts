@@ -1,9 +1,31 @@
+@font-face {
+    font-family: 'fredoka_oneregular';
+    src: url('fredokaone-regular-webfont.woff2') format('woff2'),
+         url('fredokaone-regular-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue-regular-webfont.woff2') format('woff2'),
+         url('bebasneue-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.bclip {
+    font-family: 'fredoka_oneregular';
+    color:#f7ac68;
+}
+
 body {
     height: 100vh;
     background: linear-gradient(
         to bottom,
-        #d9d9d9 0%,
-        #d9d9d9 55%,
+        #3b3e5a 0%,
+        #3b3e5a 55%,
         #c0c0c0 55%,
         #c0c0c0 55.3%,
         white 55.3%,
@@ -13,7 +35,7 @@ body {
 }
 
 .submit {
-    background:#59afff;
+    background:#ed6b5a;
     width: 50%;
     border:  none;
     border-radius: 7px;
@@ -30,17 +52,20 @@ body {
     cursor: pointer;
 }
 
+h3 {
+    font-size: 45px;
+}
+
 .container {
     background: white;
     position: absolute;
     right: 0%;
     border-radius: 10px;
-    padding: 50px;
+    padding: 45px;
     width: 500px;
     max-width: 600px;
     max-height: 500px;
     margin: 50px;
-    font-weight: bold;
     font-size: x-large;
 }
 
@@ -61,15 +86,19 @@ body {
 .banner {
     position: relative;
     top: 55%;
+    left: 3%;
     margin: 10px;
-    font-weight: bolder;
-    font-size: xx-large;
+    font-size: 45px;
     max-width: 50%;
     max-height: 100px;
      }
 
 h1 {
    margin-bottom: 0;
+}
+
+h3, .banner {
+    font-family: 'bebas_neueregular';
 }
 
 @media(max-width: 1290px) { 
@@ -90,7 +119,7 @@ h1 {
         margin: auto;
     }
     .banner { 
-        top: 100%;
+        top: 90%;
         text-align: center;
     }
  }

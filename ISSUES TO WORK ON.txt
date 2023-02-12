@@ -1,0 +1,5 @@
+Issues I'm currently fixing:
+
+- .banner div overflows when the screen height is decreased.
+- adjust media query for max width of .banner
+- reduce .container div width
