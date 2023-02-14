@@ -62,7 +62,7 @@ h3 {
     right: 0%;
     border-radius: 10px;
     padding: 45px;
-    width: 500px;
+    width: 460px;
     max-width: 600px;
     max-height: 500px;
     margin: 50px;
@@ -101,6 +101,24 @@ h3, .banner {
     font-family: 'bebas_neueregular';
 }
 
+@media(max-width: 1660px) { 
+    .banner {
+         font-size: 40px;
+     }
+ }
+
+@media(max-width: 1477px) { 
+    .banner {
+         font-size: 35px;
+     }
+ }
+
+ @media(max-width: 1300px) { 
+    .banner {
+         font-size: 30px;
+     }
+ }
+
 @media(max-width: 1290px) { 
    .banner {
         font-size: x-large;
@@ -122,4 +140,20 @@ h3, .banner {
         top: 90%;
         text-align: center;
     }
+    @media(max-height: 815px){
+        .container{
+            font-size: large;
+            bottom: 20%;
+        }
+    
+        .banner {
+            font-size: large;
+        }
+
+        .submit {
+            width: 40%;
+        }
+     }
  }
+
+
